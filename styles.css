@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -41,8 +43,9 @@ body{
 }
 .code::-webkit-outer-spin-button,
 .code::-webkit-inner-spin-button{
-    -webkit-appearance: none;
     margin: 0;
+    -webkit-appearance: none;
+    
 }
 .code:focus{
     outline-color: #686868;
@@ -52,17 +55,14 @@ body{
     box-shadow: 0 10px 10px -5px rgba(0, 0,0, 0.25);
 } 
 @media only screen and (max-width: 850px){
-       .code-box{
-        flex-wrap: wrap;
-       }
-       .code{
-         
-  
-    height: 80px;
-    font-size: 60px;
-    max-width:70px ;
-   
 
-   
-       }
+    .code-box{
+        flex-wrap: wrap;
+    }
+
+    .code{
+        height: 80px;
+        font-size: 60px;
+        max-width:70px ;
+    }
 }        
